@@ -1,2 +1,12 @@
-# angular-docker-ci
-This repo uses the github action to build docker image and then push docker image in docker hub
+
+```bash
+docker pull abhi07/angular-cli
+```
+
+Or, in the `Dockerfile`:
+
+```Dockerfile
+FROM abhi07/angular-cli
+```
+
+Contributions welcome, with the plan to push a new version each time a major LTS version of Node is released (even numbers) or a new version of the Angular CLI is released.
