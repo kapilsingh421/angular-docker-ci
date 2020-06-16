@@ -1,12 +1,11 @@
 
 ```bash
-docker pull abhi07/angular-cli
+docker pull abhi07/angular-docker-cli
 ```
 
 Or, in the `Dockerfile`:
 
 ```Dockerfile
-FROM abhi07/angular-cli
+FROM abhi07/angular-docker-cli
 ```
 
-Contributions welcome, with the plan to push a new version each time a major LTS version of Node is released (even numbers) or a new version of the Angular CLI is released.
